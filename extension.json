@@ -5,7 +5,7 @@
     "description": "Select all occurrences of the current text selection",
     "version": "1.0",
     "categories": ["commands"],
-    
+    "bugs": "https://github.com/iansvo/nova-select-all-occurrences/issues",
     "main": "main.js",
     
     "activationEvents": [
