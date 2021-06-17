@@ -1,0 +1,29 @@
+{
+    "identifier": "org.SelectAllOccurrences",
+    "name": "Select All Occurrences",
+    "organization": "MyOrganization",
+    "description": "Select all occurrences of the current text selection",
+    "version": "1.0",
+    "categories": ["commands"],
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "onLanguage:javascript"
+    ],
+    
+    "entitlements": {
+        
+    },
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Select All Occurrences",
+                "command": "select-all-occurrences.selectOccurrences",
+                "shortcut": "ctrl-cmd-g",
+                "when": "editorHasSelection"
+            }
+        ]
+    }
+}

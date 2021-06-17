@@ -1,0 +1,4 @@
+{
+  "apexskier.eslint.config.fixOnSave" : "Disable",
+  "htmlvalidator.enabled" : false
+}
