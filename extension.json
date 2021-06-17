@@ -1,21 +1,14 @@
 {
     "identifier": "org.SelectAllOccurrences",
     "name": "Select All Occurrences",
-    "organization": "MyOrganization",
+    "organization": "Ian Svoboda",
     "description": "Select all occurrences of the current text selection",
     "version": "1.0",
     "categories": ["commands"],
     "bugs": "https://github.com/iansvo/nova-select-all-occurrences/issues",
-    "main": "main.js",
-    
-    "activationEvents": [
-        "onLanguage:javascript"
-    ],
-    
-    "entitlements": {
-        
-    },
-    
+    "main": "main.js",    
+    "activationEvents": [],    
+    "entitlements": {},    
     "commands": {
         "editor": [
             {
