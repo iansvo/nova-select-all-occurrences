@@ -1,9 +1,10 @@
 {
-    "identifier": "org.SelectAllOccurrences",
+    "identifier": "iansvo.SelectAllOccurrences",
     "name": "Select All Occurrences",
     "organization": "Ian Svoboda",
     "description": "Select all occurrences of the current text selection",
     "version": "1.0",
+    "repository": "https://github.com/iansvo/nova-select-all-occurrences",
     "categories": ["commands"],
     "bugs": "https://github.com/iansvo/nova-select-all-occurrences/issues",
     "main": "main.js",    

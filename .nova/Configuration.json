@@ -1,4 +1,7 @@
 {
   "apexskier.eslint.config.fixOnSave" : "Disable",
+  "apexskier.typescript.config.formatDocumentOnSave" : "false",
+  "apexskier.typescript.config.isEnabledForJavascript" : "Disable",
+  "apexskier.typescript.config.organizeImportsOnSave" : "false",
   "htmlvalidator.enabled" : false
 }
