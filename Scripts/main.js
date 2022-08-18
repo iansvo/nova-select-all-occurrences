@@ -14,7 +14,6 @@ nova.commands.register("select-all-occurrences.selectOccurrences", (editor) => {
     const selection = editor.selectedText;
     
     editor.edit(function(e) {                
-        console.log(selection)
         const occurrences = getOccurrences(selection);
         
         for( const range of occurrences ) {        
